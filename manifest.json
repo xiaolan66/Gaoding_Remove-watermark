@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "稿定设计去水印",
+  "version": "1.0",
+  "description": "在线拦截搞定水印加载-但是无法去除下载水印",
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}

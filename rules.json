@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||dancf.com/fe-assets/20230626/d2409d16ddca8c7ea8aea81ca99b636e.svg",
+      "resourceTypes": ["image"]
+    }
+  }
+]
